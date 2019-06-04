@@ -11,6 +11,7 @@ Symptoms are chills, fever and sweating, usually occurring a few weeks after bei
 
 If efficent detection of malaria is made then deaths can be avoided which will ave families and communities from downward spiral of poverty.
 Most of the 435000 who died of Malaria were children, mainly in Africa, which is hyperendemic for malaria.when severe malaria does occur, malnourished children have a higher morbidity and mortality.when severe malaria does occur, malnourished children have a higher morbidity and mortality.when severe malaria does occur, malnourished children have a higher morbidity and mortality.
+Malaria  causes Renal failure,Pulmonary oedema,Jaundice,Anemia,Pre-treatment hypoglycemia and Neurological sequelae and Convulsions
 ![poor-people-fo-real](https://user-images.githubusercontent.com/37455387/58870226-6ca29700-86dd-11e9-9485-9bdd0b5f37ac.jpg)
 
 ### Impact Of Malaria On The World
@@ -21,13 +22,16 @@ Malaria is one of the world’s deadliest diseases, and remains one of the top c
 ## Microscopic Diagnosis
 
 Malaria parasites can be identified by examining under the microscope a drop of the patient’s blood, spread out as a “blood smear” on a microscope slide. Prior to examination, the specimen is stained to give the parasites a distinctive appearance. This technique remains the gold standard for laboratory confirmation of malaria. However, it depends on the quality of the reagents, of the microscope, and on the experience of the laboratorian.WHO recommends that all cases of suspected malaria be confirmed using parasite-based diagnostic testing (either microscopy or rapid diagnostic test) before administering treatment. Results of parasitological confirmation can be available in 30 minutes or less.
-
+![7799cb57fdd2d20e1b7509dcec6dff19_whatismalaria_malaria_parasite_585-970-1100-c-90](https://user-images.githubusercontent.com/37455387/58871462-aa082400-86df-11e9-982a-3e4444ffbc5f.jpg)
+ 
 The research  paper on which the data and analysis is constructed , ‘ Pre-trained convolutional neural networks as feature extractors toward improved Malaria parasite detection in thin blood smear images’ by S Rajaraman et. al. introduces to some of these methods. These include thick and thin blood smear examinations, polymerase chain reaction (PCR) and rapid diagnostic tests (RDT) the latter two tests are surrogate methods  used an  alternative particularly where good quality microscopy services cannot be readily provided.
 
 ## Convolution Neural Network
 
+![The-convolutional-neural-network-CNN-architecture-for-the-deep-learning-based-cartilage](https://user-images.githubusercontent.com/37455387/58866893-1cc0d180-86d7-11e9-9cba-3fff3ae3be6d.png)
 
-
+## Tools
+![1_Q9L4auKM6DbpV2BH32GnoQ](https://user-images.githubusercontent.com/37455387/58870251-7926ef80-86dd-11e9-9980-8e47fb3be22a.jpeg)
 
 
 
