@@ -60,8 +60,11 @@ The fast Ai library and pytorch is used, the architectures used are ResNet34,Res
 
 A network which produces x amount of training error. Construct a network B by adding few layers on top of A and put parameter values in those layers in such a way that they do nothing to the outputs from A. Let’s call the additional layer as C. This would mean the same x amount of training error for the new network. So while training network B, the training error should not be above the training error of A. And since it DOES happen, the only reason is that learning the identity mapping(doing nothing to inputs and just copying as it is) with the added layers-C is not a trivial problem, which the solver does not achieve. To solve this, the module shown above creates a direct path between the input and output to the module implying an identity mapping and the added layer-C just need to learn the features on top of already available input. Since C is learning only the residual, the whole module is called residual module.
 ResNet34 has network depth of 34, ResNet50 has network depth of 50 and ResNet152 has network depth of 152 layers.
+
+
 REFERNCES:
 [1] https://www.who.int/news-room/fact-sheets/detail/malaria
 [2] https://www.cdc.gov/malaria/diagnosis_treatment/diagnosis.html
 [3]https://towardsdatascience.com/detecting-malaria-with-deep-learning-9e45c1e34b60 
 [4]https://medium.com/datadriveninvestor/convolutional-neural-network-cnn-simplified-ecafd4ee52c5
+[5]https://github.com/krishnakatyal/Malaria-Detection-with-Deep-Learning/blob/master/Deep_learning_for_Malaria_detection.ipynb
