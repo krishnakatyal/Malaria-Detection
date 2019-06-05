@@ -64,7 +64,11 @@ ResNet34 has network depth of 34, ResNet50 has network depth of 50 and ResNet152
 
 REFERNCES:
 [1] https://www.who.int/news-room/fact-sheets/detail/malaria
+
 [2] https://www.cdc.gov/malaria/diagnosis_treatment/diagnosis.html
+
 [3]https://towardsdatascience.com/detecting-malaria-with-deep-learning-9e45c1e34b60 
+
 [4]https://medium.com/datadriveninvestor/convolutional-neural-network-cnn-simplified-ecafd4ee52c5
+
 [5]https://github.com/krishnakatyal/Malaria-Detection-with-Deep-Learning/blob/master/Deep_learning_for_Malaria_detection.ipynb
