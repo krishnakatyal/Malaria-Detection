@@ -10,6 +10,8 @@ Symptoms are chills, fever and sweating, usually occurring a few weeks after bei
 If efficent detection of malaria is made then deaths can be avoided which will ave families and communities from downward spiral of poverty.
 Most of the 435000 who died of Malaria were children, mainly in Africa, which is hyperendemic for malaria.when severe malaria does occur, malnourished children have a higher morbidity and mortality.when severe malaria does occur, malnourished children have a higher morbidity and mortality.when severe malaria does occur, malnourished children have a higher morbidity and mortality.
 Malaria  causes Renal failure,Pulmonary oedema,Jaundice,Anemia,Pre-treatment hypoglycemia and Neurological sequelae and Convulsions
+
+
 ![poor-people-fo-real](https://user-images.githubusercontent.com/37455387/58870226-6ca29700-86dd-11e9-9485-9bdd0b5f37ac.jpg)
 
 ### Impact Of Malaria On The World
@@ -30,12 +32,36 @@ The research  paper on which the data and analysis is constructed , ‘ Pre-trai
 
 ![The-convolutional-neural-network-CNN-architecture-for-the-deep-learning-based-cartilage](https://user-images.githubusercontent.com/37455387/58866893-1cc0d180-86d7-11e9-9cba-3fff3ae3be6d.png)
 
+Convolution neural networks are special type of neural networks used in images recognition, images classifications and  Objects detections.A convolutional neural network consists of an input and an output layer, as well as multiple hidden layers. The hidden layers of a CNN typically consist of convolutional layers, RELU layer i.e. activation function, pooling layers, fully connected layers and normalization layers.
+
+Convolutional layer is core building block of CNN, it helps with feature detection.
+
+Kernel K is a set of learnable filters and is small spatially compared to the image but extends through the full depth of the input image.
+
+An easy way to understand this is if you were a detective and you are came across a large image or a picture in dark, how will you identify the image?
+
+You will use you flashlight and scan across the entire image. This is exactly what we do in convolutional layer.
+
+Kernel K, which is a feature detector is equivalent of the flashlight on image I, and we are trying to detect feature and create multiple feature maps to help us identify or classify the image.
+
+we have multiple feature detector to help with things like edge detection, identifying different shapes, bends or different colors etc
+
+![1_XbuW8WuRrAY5pC4t-9DZAQ](https://user-images.githubusercontent.com/37455387/58934834-3fabbe00-8789-11e9-81bf-5950375c5757.jpeg)
+
+
+
 ## Tools
 ![1_Q9L4auKM6DbpV2BH32GnoQ](https://user-images.githubusercontent.com/37455387/58870251-7926ef80-86dd-11e9-9980-8e47fb3be22a.jpeg)
 
+The fast Ai library and pytorch is used, the architectures used are ResNet34,ResNet50 and ResNet152 and the models were trained on google colab which uses Tesla K80 GPU and total 12 Gigabytes of RAM. 
+
+![s_8C760A111A4204FB24FFC30E04E069BD755C4EEFD62ACBA4B54BBA2A78E13E8C_1490999744884_main-qimg-b1fcbef975924b2ec4ad3a851e9f3934](https://user-images.githubusercontent.com/37455387/58935314-cad98380-878a-11e9-99e6-934d0bda2cec.png)
 
 
-References
+A network which produces x amount of training error. Construct a network B by adding few layers on top of A and put parameter values in those layers in such a way that they do nothing to the outputs from A. Let’s call the additional layer as C. This would mean the same x amount of training error for the new network. So while training network B, the training error should not be above the training error of A. And since it DOES happen, the only reason is that learning the identity mapping(doing nothing to inputs and just copying as it is) with the added layers-C is not a trivial problem, which the solver does not achieve. To solve this, the module shown above creates a direct path between the input and output to the module implying an identity mapping and the added layer-C just need to learn the features on top of already available input. Since C is learning only the residual, the whole module is called residual module.
+ResNet34 has network depth of 34, ResNet50 has network depth of 50 and ResNet152 has network depth of 152 layers.
+REFERNCES:
 [1] https://www.who.int/news-room/fact-sheets/detail/malaria
 [2] https://www.cdc.gov/malaria/diagnosis_treatment/diagnosis.html
 [3]https://towardsdatascience.com/detecting-malaria-with-deep-learning-9e45c1e34b60 
+[4]https://medium.com/datadriveninvestor/convolutional-neural-network-cnn-simplified-ecafd4ee52c5
