@@ -61,13 +61,23 @@ The fast Ai library and pytorch is used, the architectures used are ResNet34,Res
 A network which produces x amount of training error. Construct a network B by adding few layers on top of A and put parameter values in those layers in such a way that they do nothing to the outputs from A. Let’s call the additional layer as C. This would mean the same x amount of training error for the new network. So while training network B, the training error should not be above the training error of A. And since it DOES happen, the only reason is that learning the identity mapping(doing nothing to inputs and just copying as it is) with the added layers-C is not a trivial problem, which the solver does not achieve. To solve this, the module shown above creates a direct path between the input and output to the module implying an identity mapping and the added layer-C just need to learn the features on top of already available input. Since C is learning only the residual, the whole module is called residual module.
 ResNet34 has network depth of 34, ResNet50 has network depth of 50 and ResNet152 has network depth of 152 layers.
 
+### Freezing and Unfreezing Layers
 When doing transfer learning we typically freeze the first n layers and leave the last layer unfrozen to be able to update the weights.
-
 If the first N layers are frozen that means that if we put an image through it during the first epoch and we put the same image through it again during the second epoch then we will get out the same value through that layer.
 
 Consider a network that has 2 layers. The first layer is frozen and the second layer not frozen. If we run 100 epochs we are doing an identical computation through the first layer for each of the 100 epochs. We run the same images through the same layers without updating the weights. this means for every epoch the inputs to the first layer are the same(the images). The weights in the first layer are the same and the outputs from the first layer are the same(images * weights + bias).
 
 So instead of running that same calculation for each epoch we only run it once. then we feed that output into layer 2. That output is also called the activation.
+
+### Optimal Learning Rate
+
+The learning rate is the most important hyper-parameter for training neural networks, yet until recently deciding its value has been incredibly shady.. 
+We do a trial run and train the neural network using a low learning rate, but increase it exponentially with each batch
+Meanwhile, the loss is recorded for every value of the learning rate. We then plot loss against learning rate: like below
+.
+![download](https://user-images.githubusercontent.com/37455387/59104682-c8745680-894f-11e9-8251-cc78c0566b97.png)
+
+The optimum learning rate is determined by finding the value where the learning rate is highest and the loss is still descending
 
 
 REFERNCES:
