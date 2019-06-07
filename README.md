@@ -81,6 +81,13 @@ Meanwhile, the loss is recorded for every value of the learning rate. We then pl
 The optimum learning rate is determined by finding the value where the learning rate is highest and the loss is still descending
 
 
+### Saving the Deep learning Model
+ The model is saved and then exported into the .pkl file 
+ The pickle operation to serialize the Deep Learning algorithms and save the serialized format to a file.
+ Later this file can be loaded to deserialize your model and use it to make new predictions.
+ 
+![Screenshot (78)](https://user-images.githubusercontent.com/37455387/59105915-acbe7f80-8952-11e9-9433-856c7c5f3dfc.png)
+
 REFERNCES:
 [1] https://www.who.int/news-room/fact-sheets/detail/malaria
 
