@@ -96,6 +96,14 @@ The Deep learning model can be Deployed like a web app by using free services of
 
 
 
+
+
+
+
+
+
+
+
 REFERNCES:
 [1] https://www.who.int/news-room/fact-sheets/detail/malaria
 
