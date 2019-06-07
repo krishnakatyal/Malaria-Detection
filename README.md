@@ -88,6 +88,14 @@ The optimum learning rate is determined by finding the value where the learning 
  
 ![Screenshot (78)](https://user-images.githubusercontent.com/37455387/59105915-acbe7f80-8952-11e9-9433-856c7c5f3dfc.png)
 
+
+
+### Deployment Of The Model 
+The Deep learning model can be Deployed like a web app by using free services of Render ,The tutorial is given below: 
+ [Deploying Deep Learning Model into a Web App](https://medium.com/@krishnakatyal5121/deploying-deep-learning-model-as-a-web-app-de79b6e3bb8e)
+
+
+
 REFERNCES:
 [1] https://www.who.int/news-room/fact-sheets/detail/malaria
 
