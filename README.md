@@ -116,4 +116,6 @@ REFERNCES:
 
 [5]https://github.com/krishnakatyal/Malaria-Detection-with-Deep-Learning/blob/master/Deep_learning_for_Malaria_detection.ipynb
 
-[6]https://github.com/sayakpaul/Malaria-Detection-with-Deep-Learning
+[6]https://github.com/sayakpaul/Malaria-Detection-with-Deep-
+
+A special Thanks To sayakPaul
