@@ -19,7 +19,7 @@ Malaria  causes Renal failure,Pulmonary oedema,Jaundice,Anemia,Pre-treatment hyp
 
 ![1_HHQlfj2REThOojQLNhnUZw](https://user-images.githubusercontent.com/37455387/58866717-c6ec2980-86d6-11e9-811b-d4e0a9c922c9.png)
 
-Malaria is one of the world’s deadliest diseases, and remains one of the top child killers on the planet. Malaria also keeps children from going to school, families from investing in their future, and communities from prospering, taking a huge toll on lives, livelihoods and countries’ progress.
+Malaria is one of the worlds deadliest diseas, and remains one of the top child killers on the planet. Malaria also keeps children from going to school, families from investing in their future, and communities from prospering, taking a huge toll on lives, livelihoods and countries’ progress.
 
 ## Microscopic Diagnosis
 
