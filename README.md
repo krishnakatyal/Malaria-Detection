@@ -1,12 +1,11 @@
 # Malaria Detection With Deep Learning
 
 ## This Repository Is Under Construction.
-Artificial intelligence (AI) has the potential to help tackle some of the world’s most challenging world problems and when 
-coupled with popular tools and technologies  for development and betterment of our society ,what the point of techology when it can't help the needy and save lives. Deep learning helps us to  build robust, scalable and effective solutions which can be adopted by everyone even in remote corners of the world and detection of Malaria is one of the problem which Deep learning has help to to tackle.
+Artificial intelligence (AI) has the potential to help tackle some of the world’s most challenging world problems and when coupled with popular tools and technologies for development and betterment of our society, what the point of technology when it can't help the needy and save lives. Deep learning helps us to build robust, scalable and effective solutions which can be adopted by everyone even in remote corners of the world and detection of Malaria is one of the problems which Deep learning has help to tackle. 
 
-Malaria is a life-threatening disease caused by parasites that are transmitted to people through the bites of infected female Anopheles mosquitoes. It is preventable and curable.According to WHO their are 212 Million malaria cases and 435000 deaths.Early diagnostics and treatment of malaria can prevents deaths.Malaria is prevalent across the world especially in tropical regions
-The severity of malaria varies based on the species of plasmodium.
-Symptoms are chills, fever and sweating, usually occurring a few weeks after being bitten.
+
+Malaria is a life-threatening disease caused by parasites that are transmitted to people through the bites of infected female Anopheles mosquitoes. It is preventable and curable. According to WHO there are 212 Million malaria cases and 435000 deaths. Early diagnostics and treatment of malaria can prevent deaths. Malaria is prevalent across the world especially in tropical regions the severity of malaria varies based on the species of plasmodium. Symptoms are chills, fever and sweating, usually occurring a few weeks after being bitten.
+.
 
 If efficent detection of malaria is made then deaths can be avoided which will ave families and communities from downward spiral of poverty.
 Most of the 435000 who died of Malaria were children, mainly in Africa, which is hyperendemic for malaria.when severe malaria does occur, malnourished children have a higher morbidity and mortality.when severe malaria does occur, malnourished children have a higher morbidity and mortality.when severe malaria does occur, malnourished children have a higher morbidity and mortality.
