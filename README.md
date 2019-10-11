@@ -1,7 +1,7 @@
 # Malaria Detection With Deep Learning
 
 ## This Repository Is Under Construction.
-Artificial intelligence (AI) has the potential to help tackle some of the world’s most challenging world problems and when coupled with popular tools and technologies for development and betterment of our society, what the point of technology when it can't help the needy and save lives. Deep learning helps us to build robust, scalable and effective solutions which can be adopted by everyone even in remote corners of the world and detection of Malaria is one of the problems which Deep learning has help to tackle. 
+Artificial intelligence (AI) has the potential to help tackle some of the world’s most challenging  problems and when coupled with popular tools and technologies for development and betterment of our society, what the point of technology when it can't help the needy and save lives. Deep learning helps us to build robust, scalable and effective solutions which can be adopted by everyone even in remote corners of the world and detection of Malaria is one of the problems which Deep learning has help to tackle. 
 
 
 Malaria is a life-threatening disease caused by parasites that are transmitted to people through the bites of infected female Anopheles mosquitoes. It is preventable and curable. According to WHO there are 212 Million malaria cases and 435000 deaths. Early diagnostics and treatment of malaria can prevent deaths. Malaria is prevalent across the world especially in tropical regions the severity of malaria varies based on the species of plasmodium. Symptoms are chills, fever and sweating, usually occurring a few weeks after being bitten.
